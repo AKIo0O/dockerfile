@@ -28,3 +28,12 @@ end tell
    
    ``` Shell
        export DOCKER_HOST=tcp://127.0.0.1:2376
+       
+       
+       
+## container
+
+* sshd 
+  * apt-get install openssh-server
+  * mkdir -p /var/run/sshd
+  * /usr/sbin/sshd -D &
