@@ -6,7 +6,9 @@ nginx
 ## osx 常见问题
 
  * [端口无法映射](https://github.com/docker/docker/issues/4007)
- * 将Boot2docker 的teriminal改成iterm
+ * 将Boot2docker 的Teriminal改成iTerm
+   获取Boot2docker内容，找到Contents > Resources > Scripts > main.scpt
+   如果没有权限，请使用 chmod 777更改目录 权限
     ```applescript
    tell application "iTerm"
 	make new terminal
