@@ -12,4 +12,4 @@ RUN apt-get install -y nginx
 
 EXPOSE 80 8000 900
 
-#ENTRYPOINT nginx
+ENTRYPOINT nginx
